@@ -130,3 +130,32 @@ https://keras.io/api/layers/recurrent_layers/time_distributed/
 
 How to Use the TimeDistributed Layer in Keras
 https://machinelearningmastery.com/timedistributed-layer-for-long-short-term-memory-networks-in-python/
+
+Tokenizer
+https://huggingface.co/docs/transformers/main_classes/tokenizer
+
+https://huggingface.co/docs/transformers/model_doc/distilbert
+
+tf.keras.layers.MultiHeadAttention
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/MultiHeadAttention
+
+tf.keras.layers.Dropout 
+https://www.tensorflow.org/versions/r2.4/api_docs/python/tf/keras/layers/Dropout
+
+What's the difference between the training argument in call() and the trainable attribute?
+https://keras.io/getting_started/faq/#whats-the-difference-between-the-training-argument-in-call-and-the-trainable-attribute
+
+The Sequential class
+https://keras.io/api/models/sequential/
+
+tf.linalg.matmul 
+https://www.tensorflow.org/api_docs/python/tf/linalg/matmul
+
+Dimensional indexing tools
+https://numpy.org/doc/stable/user/basics.indexing.html#dimensional-indexing-tools
+
+MultiHeadAttention layer
+https://keras.io/api/layers/attention_layers/multi_head_attention/
+
+tf.keras.preprocessing.text.Tokenizer
+https://www.tensorflow.org/api_docs/python/tf/keras/preprocessing/text/Tokenizer
