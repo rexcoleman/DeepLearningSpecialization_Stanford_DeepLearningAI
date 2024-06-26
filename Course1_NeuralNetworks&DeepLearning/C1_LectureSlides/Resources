@@ -1,0 +1,18 @@
+Feedforward Neural Networks in Depth
+https://community.deeplearning.ai/t/feedforward-neural-networks-in-depth/98811
+
+Week 2:
+GitHub: 
+Implementing a Neural Network from Scratch in Python – An Introduction
+ (Denny Britz, 2015)
+
+Why normalize images by subtracting dataset's image mean, instead of the current image mean in deep learning?
+ (Stack Exchange)
+
+Week 3:
+CS231n: Convolutional Neural Networks for Visual Recognition
+ (Stanford University)
+
+Week 4:
+Autoreload of modules in IPython
+ (Stack Overflow)

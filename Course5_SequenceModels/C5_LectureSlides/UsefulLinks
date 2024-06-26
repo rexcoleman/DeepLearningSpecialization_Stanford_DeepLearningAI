@@ -1,0 +1,132 @@
+References
+
+Week 1:
+Minimal character-level language model with a Vanilla Recurrent Neural Network, in Python/numpy 
+(GitHub: karpathy)
+https://gist.github.com/karpathy/d4dee566867f8291f086
+
+The Unreasonable Effectiveness of Recurrent Neural Networks
+ (Andrej Karpathy blog, 2015)
+https://karpathy.github.io/2015/05/21/rnn-effectiveness/
+
+deepjazz
+ (GitHub: jisungk)
+https://github.com/jisungk/deepjazz
+
+Learning Jazz Grammars
+ (Gillick, Tang & Keller, 2010)
+https://ai.stanford.edu/~kdtang/papers/smc09-jazzgrammar.pdf
+
+A Grammatical Approach to Automatic Improvisation
+ (Keller & Morrison, 2007)
+http://smc07.uoa.gr/SMC07%20Proceedings/SMC07%20Paper%2055.pdf
+
+Surprising Harmonies
+ (Pachet, 1999)
+https://www.francoispachet.fr/wp-content/uploads/2021/01/pachet-99-Casys.pdf
+
+Week 2:
+Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings
+ (Bolukbasi, Chang, Zou, Saligrama & Kalai, 2016)
+https://papers.nips.cc/paper/2016/file/a486cd07e4ac3d270571622f4f316ec5-Paper.pdf
+
+GloVe: Global Vectors for Word Representation
+ (Pennington, Socher & Manning, 2014)
+https://nlp.stanford.edu/projects/glove/
+
+Woebot
+https://woebothealth.com/
+
+Week 4:
+Natural Language Processing Specialization
+ (by 
+DeepLearning.AI
+)
+
+Attention Is All You Need
+ (Vaswani, Shazeer, Parmar, Uszkoreit, Jones, Gomez, Kaiser & Polosukhin, 2017)
+
+
+
+
+
+
+
+numpy.tanh
+https://numpy.org/devdocs/reference/generated/numpy.tanh.html
+
+numpy.dot
+https://numpy.org/doc/stable/reference/generated/numpy.dot.html
+
+numpy.zeros
+https://numpy.org/doc/stable/reference/generated/numpy.zeros.html
+
+numpy.ndarray.fill
+https://numpy.org/doc/stable/reference/generated/numpy.ndarray.fill.html
+
+numpy.concatenate
+https://numpy.org/doc/stable/reference/generated/numpy.concatenate.html
+
+numpy.clip
+https://docs.scipy.org/doc/numpy-1.13.0/reference/generated/numpy.clip.html
+
+numpy.ravel
+https://numpy.org/doc/stable/reference/generated/numpy.ravel.html
+
+Python build-in functions
+https://docs.python.org/3/library/functions.html
+
+Python data structures
+https://docs.python.org/3/tutorial/datastructures.html	
+
+Python split()
+https://docs.python.org/3/library/stdtypes.html#str.split
+
+Python max (key: lambda)
+https://docs.python.org/3/library/functions.html#max
+
+numpy.random.choice
+https://docs.scipy.org/doc/numpy-1.13.0/reference/generated/numpy.random.choice.html
+
+Please read the Keras documentation and understand these layers:
+Reshape(): Reshapes an output to a certain shape.
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/Reshape
+
+LSTM(): Long Short-Term Memory layer
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/LSTM
+
+Dense(): A regular fully-connected neural network layer.	
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dense
+
+tf.keras.layers.Embedding
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/Embedding
+
+tf.keras.layers.RepeatVector
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/RepeatVector
+
+tf.keras.layers.Concatenate
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/Concatenate
+
+Dense layer
+https://keras.io/api/layers/core_layers/dense/
+
+Activation layer
+https://keras.io/api/layers/core_layers/activation/
+
+Keras 3 API documentation / Layers API / Core lay
+https://keras.io/api/layers/core_layers/
+
+tf.keras.layers.Dot
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dot
+
+Bidirectional layer
+https://keras.io/api/layers/recurrent_layers/bidirectional/
+
+Keras 3 API documentation / Layers API / Recurrent layers
+https://keras.io/api/layers/recurrent_layers/
+
+TimeDistributed layer
+https://keras.io/api/layers/recurrent_layers/time_distributed/
+
+How to Use the TimeDistributed Layer in Keras
+https://machinelearningmastery.com/timedistributed-layer-for-long-short-term-memory-networks-in-python/

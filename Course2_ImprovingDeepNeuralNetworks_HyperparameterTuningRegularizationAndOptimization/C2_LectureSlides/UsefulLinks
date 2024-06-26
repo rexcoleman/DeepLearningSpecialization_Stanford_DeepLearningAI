@@ -1,0 +1,25 @@
+Symmetry Breaking versus Zero Initialization
+https://community.deeplearning.ai/t/symmetry-breaking-versus-zero-initialization/16061
+
+Introduction to gradients and automatic differentiation (TensorFlow Documentation)
+https://www.tensorflow.org/guide/autodiff
+
+tf.GradientTape (TensorFlow Documentation)
+https://www.tensorflow.org/api_docs/python/tf/GradientTape
+
+Debugging Weee 3 Assignment
+Week 3 - compute_total_loss Incorrect
+https://community.deeplearning.ai/t/week-3-compute-total-loss-incorrect/291048
+
+tf.keras.losses.categorical_crossentropy
+https://www.tensorflow.org/api_docs/python/tf/keras/losses/categorical_crossentropy
+
+Week 3 - Assignment - compute_total_loss - try to set from_logits=False
+https://community.deeplearning.ai/t/week-3-assignment-compute-total-loss-try-to-set-from-logits-false/243049?u=paulinpaloalto
+
+tf.one_hot
+https://www.tensorflow.org/api_docs/python/tf/one_hot
+
+Automated hyper-parameter tuning - Decision Forests
+https://www.tensorflow.org/decision_forests/tutorials/automatic_tuning_colab
+

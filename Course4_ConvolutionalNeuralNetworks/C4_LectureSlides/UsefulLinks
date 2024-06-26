@@ -1,0 +1,137 @@
+You're always encouraged to read the official documentation. To that end, you can find the docs for the Sequential and Functional APIs here:
+
+https://www.tensorflow.org/guide/keras/sequential_model
+
+https://www.tensorflow.org/guide/keras/functional
+
+Exercise 1 - happyModel
+Implement the happyModel function below to build the following model: ZEROPAD2D -> CONV2D -> BATCHNORM -> RELU -> MAXPOOL -> FLATTEN -> DENSE. Take help from tf.keras.layers
+https://tensorflow.org/api_docs/python/tf/keras/layers
+
+
+Also, plug in the following parameters for all the steps:
+
+ZeroPadding2D: padding 3, input shape 64 x 64 x 3
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/ZeroPadding2D
+
+Conv2D: Use 32 7x7 filters, stride 1
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv2D
+
+BatchNormalization: for axis 3
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/BatchNormalization
+
+ReLU
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/ReLU
+
+MaxPool2D: Using default parameters
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/MaxPool2D
+
+Flatten the previous output.
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/Flatten
+
+Fully-connected (Dense) layer: Apply a fully connected layer with 1 neuron and a sigmoid activation.
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/Dense
+
+Now that your model is created, you can compile it for training with an optimizer and loss of your choice. When the string accuracy is specified as a metric, the type of accuracy used will be automatically converted based on the loss function used. This is one of the many optimizations built into TensorFlow that make your life easier! If you'd like to read more on how the compiler operates, check the docs
+https://www.tensorflow.org/api_docs/python/tf/keras/Model#compile
+
+Welcome to the second half of the assignment, where you'll use Keras' flexible Functional API to build a ConvNet that can differentiate between 6 sign language digits.
+https://www.tensorflow.org/guide/keras/functional_api
+
+In TensorFlow, there are built-in functions that implement the convolution steps for you. By now, you should be familiar with how TensorFlow builds computational graphs. In the Functional API, you create a graph of layers. This is what allows such great flexibility.
+https://www.tensorflow.org/guide/keras/functional_api
+
+
+Exercise 1 - identity_block
+Implement the ResNet identity block. The first component of the main path has been implemented for you already! First, you should read these docs carefully to make sure you understand what's happening. Then, implement the rest.
+
+To implement the Conv2D step: Conv2D
+https://www.tensorflow.org/versions/r2.9/api_docs/python/tf/keras/layers/Conv2D
+
+
+To implement BatchNorm: BatchNormalization BatchNormalization(axis = 3)(X). If training is set to False, its weights are not updated with the new examples. I.e when the model is used in prediction mode.
+https://www.tensorflow.org/versions/r2.9/api_docs/python/tf/keras/layers/BatchNormalization
+
+For the activation, use: Activation('relu')(X)
+To add the value passed forward by the shortcut: Add
+https://www.tensorflow.org/versions/r2.9/api_docs/python/tf/keras/layers/Add
+
+We have added the initializer argument to our functions. This parameter receives an initializer function like the ones included in the package tensorflow.keras.initializers or any other custom initializer. 
+https://www.tensorflow.org/versions/r2.9/api_docs/python/tf/keras/initializers
+
+By default it will be set to random_uniform
+https://www.tensorflow.org/versions/r2.9/api_docs/python/tf/keras/initializers/RandomUniform
+
+Remember that these functions accept a seed argument that can be any value you want, but that in this notebook must set to 0 for grading purposes.
+
+As for the previous exercise, the additional initializer argument is required for grading purposes, and it has been set by default to glorot_uniform
+https://www.tensorflow.org/versions/r2.9/api_docs/python/tf/keras/initializers/GlorotUniform
+
+Francois Chollet's GitHub repository: https://github.com/fchollet/deep-learning-models/blob/master/resnet50.py
+
+Tensorflow data augmentation:
+https://www.tensorflow.org/tutorials/images/data_augmentation
+
+MobileNetV2: The Next Generation of On-Device Computer Vision Networks
+https://research.google/blog/mobilenetv2-the-next-generation-of-on-device-computer-vision-networks/#:~:text=MobileNetV2%20is%20a%20significant%20improvement,object%20detection%20and%20semantic%20segmentation.
+
+Useful References
+
+tf.math.argmax
+https://www.tensorflow.org/api_docs/python/tf/math/argmax
+
+tf.math.reduce_max
+https://www.tensorflow.org/api_docs/python/tf/math/reduce_max
+
+tf.boolean mask
+https://www.tensorflow.org/api_docs/python/tf/boolean_mask
+
+
+Implement yolo_non_max_suppression() using TensorFlow. TensorFlow has two built-in functions that are used to implement non-max suppression (so you don't actually need to use your iou() implementation):
+
+Reference documentation:
+
+tf.image.non_max_suppression()
+https://www.tensorflow.org/api_docs/python/tf/image/non_max_suppression
+
+
+tf.image.non_max_suppression(
+  boxes,
+  scores,
+  max_output_size,
+  iou_threshold=0.5,
+  name=None
+)
+Note that in the version of TensorFlow used here, there is no parameter score_threshold (it's shown in the documentation for the latest version) so trying to set this value will result in an error message: got an unexpected keyword argument score_threshold.
+
+tf.gather()
+https://www.tensorflow.org/api_docs/python/tf/gather
+
+
+keras.gather(
+  reference,
+  indices
+)
+
+the Conv2DTranspose layer, which performs the inverse of the Conv2D layer. You can read more about it here.
+https://www.tensorflow.org/api_docs/python/tf/keras/layers/Conv2DTranspose
+
+facenet(GitHub: davidsandberg)
+https://github.com/davidsandberg/facenet
+
+How to Develop a Face Recognition System Using FaceNet in Keras
+https://machinelearningmastery.com/how-to-develop-a-face-recognition-system-using-facenet-in-keras-and-an-svm-classifier/
+
+keras-facenet/notebook/tf_to_keras.ipynb(GitHub: nyoki-mtl)
+https://github.com/nyoki-mtl/keras-facenet/blob/master/notebook/tf_to_keras.ipynb
+
+Convolutional neural networks for artistic style transfer
+https://harishnarayanan.org/writing/artistic-style-transfer/
+
+TensorFlow Implementation of "A Neural Algorithm of Artistic Style"
+https://chioka.in/tensorflow-implementation-neural-algorithm-of-artistic-style
+
+
+
+Pretrained models(MatConvNet)
+https://www.vlfeat.org/matconvnet/pretrained/
