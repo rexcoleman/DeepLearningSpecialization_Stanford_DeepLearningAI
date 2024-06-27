@@ -25,7 +25,7 @@ Welcome to my portfolio showcasing Andrew Ng's Deep Learning Specialization on C
   - Week 2: Optimization Algorithms
   - Week 3: Hyperparameter Tuning, Batch Normalization, and Programming Frameworks
 
-### Course 3: Structuring Machine Learning Projects
+### [Course 3: Structuring Machine Learning Projects](https://github.com/rexcoleman/Stanford_DeepLearningAI_DeepLearningSpecialization/tree/main/Course3_StructuringMachineLearningProjects/C3_LectureSlides)
 - **Overview:** Best practices for structuring and executing machine learning projects.
 - **Content:**
   - Week 1: ML Strategy (1)
