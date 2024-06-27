@@ -45,4 +45,5 @@ Welcome to my portfolio showcasing Andrew Ng's Deep Learning Specialization on C
   - Week 1: Recurrent Neural Networks
   - Week 2: Natural Language Processing & Word Embeddings
   - Week 3: Sequence Models & Attention Mechanism
+  - Week 4: Transformer Network
 
