@@ -39,7 +39,7 @@ Welcome to my portfolio showcasing Andrew Ng's Deep Learning Specialization on C
   - Week 3: Object Detection
   - Week 4: Special Applications: Face Recognition & Neural Style Transfer
 
-### Course 5: Sequence Models
+### [Course 5: Sequence Models](https://github.com/rexcoleman/Stanford_DeepLearningAI_DeepLearningSpecialization/tree/main/Course5_SequenceModels)
 - **Overview:** Understanding sequence models and their applications.
 - **Content:**
   - Week 1: Recurrent Neural Networks
