@@ -10,7 +10,7 @@ Welcome to my portfolio showcasing Andrew Ng's Deep Learning Specialization on C
 
 ## Specialization Structure
 
-### Course 1: Neural Networks and Deep Learning
+### [Course 1: Neural Networks and Deep Learning](https://github.com/rexcoleman/Stanford_DeepLearningAI_DeepLearningSpecialization/tree/main/Course1_NeuralNetworks%26DeepLearning)
 - **Overview:** Introduction to neural networks and deep learning principles.
 - **Content:**
   - Week 1: Introduction to Deep Learning
