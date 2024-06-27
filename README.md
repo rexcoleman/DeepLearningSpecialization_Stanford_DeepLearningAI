@@ -18,7 +18,7 @@ Welcome to my portfolio showcasing Andrew Ng's Deep Learning Specialization on C
   - Week 3: Shallow Neural Networks
   - Week 4: Deep Neural Networks
 
-### Course 2: Improving Deep Neural Networks: Hyperparameter Tuning, Regularization, and Optimization
+### [Course 2: Improving Deep Neural Networks: Hyperparameter Tuning, Regularization, and Optimization](https://github.com/rexcoleman/Stanford_DeepLearningAI_DeepLearningSpecialization/tree/main/Course2_ImprovingDeepNeuralNetworks_HyperparameterTuningRegularizationAndOptimization)
 - **Overview:** Techniques for improving the performance of neural networks.
 - **Content:**
   - Week 1: Practical Aspects of Deep Learning
