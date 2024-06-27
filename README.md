@@ -31,7 +31,7 @@ Welcome to my portfolio showcasing Andrew Ng's Deep Learning Specialization on C
   - Week 1: ML Strategy (1)
   - Week 2: ML Strategy (2)
 
-### Course 4: Convolutional Neural Networks
+### [Course 4: Convolutional Neural Networks](https://github.com/rexcoleman/Stanford_DeepLearningAI_DeepLearningSpecialization/tree/main/Course4_ConvolutionalNeuralNetworks)
 - **Overview:** Detailed exploration of convolutional neural networks (CNNs) and their applications.
 - **Content:**
   - Week 1: Foundations of Convolutional Neural Networks
